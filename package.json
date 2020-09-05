@@ -1,0 +1,25 @@
+{
+  "name": "test_discord_bot",
+  "version": "1.0.0",
+  "description": "Used to test Discord Bot and test out features on private discord server",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/bot.js",
+    "dev": "nodemon ./src/bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AMbleu/Test_Discord_Bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AMbleu/Test_Discord_Bot/issues"
+  },
+  "homepage": "https://github.com/AMbleu/Test_Discord_Bot#readme",
+  "dependencies": {
+    "discord.js": "^12.3.1",
+    "dotenv": "^8.2.0"
+  }
+}
